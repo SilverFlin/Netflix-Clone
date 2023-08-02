@@ -1,5 +1,5 @@
 <template>
-    <div class="overflow-scroll bg-black ">
+    <div class="overflow-hidden bg-black ">
 
 
         <div style=" background-image:
@@ -57,7 +57,7 @@
         </div>
 
 
-        <div class="flex flex-col items-center justify-center min-h-screen">
+        <div class="flex flex-col items-center justify-center ">
 
             <div class="flex w-[90%] flex-col items-center justify-center mt-16 text-center text-white">
                 <h2 class="text-3xl font-bold">Enjoy on your TV</h2>
@@ -66,21 +66,76 @@
                 </p>
             </div>
 
-            <div class="relative m-auto h-96">
-                <img class="absolute z-20 w-full m-auto"
+            <div
+                class="overflow-hidden relative top-0 flex flex-col justify-center items-center w-[90%] mx-4 max-h-96 h-96">
+                <img class="absolute z-20 object-contain"
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
 
-                <video class="z-0 w-full m-auto" autoplay="true" playsinline="true" muted="true" loop="true">
+
+                <video class="absolute z-0 object-cover w-[85%] " autoplay="true" playsinline="true" muted="true"
+                    loop="true">
                     <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
                         type="video/mp4">
                 </video>
             </div>
         </div>
 
-        <hr class="h-2 mx-auto my-4 bg-gray-900 border-0 ">
+        <line-break></line-break>
+        <div class="flex-col items-center justify-center mx-4 text-center text-white ">
+            <h1 class="text-3xl font-bold">Watch everywhere</h1>
+            <p class="mt-4 text-lg">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <div class="">
+                <div class="relative h-full m-auto ">
+                    <img class="absolute z-0 z-20 w-full m-auto "
+                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+                        alt="">
 
-        <div>
-            <h1>asdas</h1>
+                    <div class="z-0 w-[60%] py-8 mx-auto">
+                        <video class="" autoplay="true" playsinline="true" muted="true" loop="true">
+                            <source
+                                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                                type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <line-break></line-break>
+        <div class="text-white">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis possimus delectus impedit eveniet
+                numquam consequatur aperiam minima blanditiis itaque. Pariatur veritatis officia beatae saepe tenetur
+                excepturi quam modi in.
+                Ipsum exercitationem harum amet est, illo sed, distinctio dolorum et minus molestias quis quod delectus
+                cumque hic, voluptas vitae inventore. Reiciendis laboriosam est similique voluptas sunt quod dicta animi
+                quasi?
+                Fugiat impedit minus, nobis perspiciatis labore harum facilis ipsam at deleniti autem nam ut voluptate magni
+                recusandae velit corrupti alias ipsum iure eaque nostrum nihil. Dicta, doloribus ad? Ad, fuga.
+                Accusamus, architecto tempore delectus laudantium deleniti, magni aut dolorem numquam asperiores impedit
+                quasi. Voluptatem quia quos culpa odit tenetur atque eveniet incidunt hic officiis. Aliquam culpa cum et
+                ratione laborum!
+                Consequatur libero rerum est rem ex dolorum, magni porro repellat ullam eos eveniet dicta natus vitae. Iste
+                eius maxime ullam! Reiciendis magni voluptates praesentium facilis est tempora iure ipsa voluptas!
+                Rem aliquam laudantium suscipit perspiciatis architecto magnam qui illum non officiis error, enim
+                necessitatibus quibusdam minus, quos voluptatem, cum sequi odio saepe dolores maxime numquam asperiores
+                aperiam reprehenderit aut. Esse.
+                Magnam incidunt tempora illo reprehenderit molestias, deleniti consequuntur? Perferendis consectetur odit
+                fugiat itaque illo exercitationem porro minima quae. Praesentium iusto voluptate magni sapiente ea alias
+                veniam accusantium. Consectetur, voluptatibus aspernatur.
+                Doloremque dolorem atque repellendus ex et enim asperiores alias ducimus nemo itaque sint, velit quas
+                architecto, suscipit veritatis reiciendis minus, quos perspiciatis? Eveniet rem, quod eum voluptatibus odit
+                quas officia!
+                Vitae perferendis, fuga, voluptate dolorum ipsa harum rerum iusto aut ipsam nobis quidem recusandae quos
+                labore impedit. Ex pariatur, voluptatibus aut, rem non aspernatur voluptates praesentium dolores est
+                repellendus magnam?
+                Libero deserunt fugiat odit, recusandae corporis obcaecati. Sed ullam numquam maxime ea nulla quibusdam.
+                Itaque hic nisi, vel accusantium reiciendis doloribus eos fuga atque assumenda nesciunt quaerat earum
+                exercitationem libero!
+                Incidunt fuga dolore illo expedita obcaecati minima molestiae at ipsum vero delectus, ducimus distinctio
+                nesciunt voluptates qui impedit! Magnam voluptatibus perferendis cum similique in! Quae ratione aut ipsum
+                nam culpa?
+                Quos soluta repellat velit itaque alias iste numquam necessitatibus! Totam praesentium voluptate iste sequi
+                aperiam ab fugiat obcaecati quo architecto, cupiditate, adipisci natus id ipsum ipsa nesciunt aspernatur
+                nisi! Doloribus.</h1>
         </div>
     </div>
 </template>
@@ -88,4 +143,5 @@
 <script setup lang="ts">
 import { Icon } from "@iconify/vue";
 import PopCorns from "@/components/icons/PopCorns.vue";
+import LineBreak from "@/components/LineBreak.vue";
 </script>
