@@ -71,32 +71,30 @@
                 <img class="absolute z-20 object-contain"
                     src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
 
-
-                <video class="absolute z-0 object-cover w-[85%] " autoplay="true" playsinline="true" muted="true"
-                    loop="true">
-                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-                        type="video/mp4">
-                </video>
+                <div class="absolute z-0">
+                    <video class="object-cover w-full h-full " autoplay="true" playsinline="true" muted="true" loop="true">
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                            type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
 
         <line-break></line-break>
-        <div class="flex-col items-center justify-center mx-4 text-center text-white ">
+        <div class="flex flex-col items-center justify-center h-auto mx-4 text-center text-white md:mb-64 min-h-fit">
             <h1 class="text-3xl font-bold">Watch everywhere</h1>
             <p class="mt-4 text-lg">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-            <div class="">
-                <div class="relative h-full m-auto ">
-                    <img class="absolute z-0 z-20 w-full m-auto "
-                        src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
-                        alt="">
+            <div class="relative w-[90%] mx-auto h-96">
+                <img class="absolute z-10 w-full h-auto max-w-full "
+                    src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="">
+                <div class="absolute left-[20%] w-[60%] top-[8%] h-auto md:top-[12%]">
 
-                    <div class="z-0 w-[60%] py-8 mx-auto">
-                        <video class="" autoplay="true" playsinline="true" muted="true" loop="true">
-                            <source
-                                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
-                                type="video/mp4">
-                        </video>
-                    </div>
+                    <video class="object-cover w-full h-full" autoplay="true" playsinline="true" muted="true" loop="true">
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                            type="video/mp4">
+                    </video>
                 </div>
             </div>
         </div>
