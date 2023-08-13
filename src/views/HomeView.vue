@@ -99,41 +99,35 @@
             </div>
         </div>
         <line-break></line-break>
-        <div class="text-white">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis possimus delectus impedit eveniet
-                numquam consequatur aperiam minima blanditiis itaque. Pariatur veritatis officia beatae saepe tenetur
-                excepturi quam modi in.
-                Ipsum exercitationem harum amet est, illo sed, distinctio dolorum et minus molestias quis quod delectus
-                cumque hic, voluptas vitae inventore. Reiciendis laboriosam est similique voluptas sunt quod dicta animi
-                quasi?
-                Fugiat impedit minus, nobis perspiciatis labore harum facilis ipsam at deleniti autem nam ut voluptate magni
-                recusandae velit corrupti alias ipsum iure eaque nostrum nihil. Dicta, doloribus ad? Ad, fuga.
-                Accusamus, architecto tempore delectus laudantium deleniti, magni aut dolorem numquam asperiores impedit
-                quasi. Voluptatem quia quos culpa odit tenetur atque eveniet incidunt hic officiis. Aliquam culpa cum et
-                ratione laborum!
-                Consequatur libero rerum est rem ex dolorum, magni porro repellat ullam eos eveniet dicta natus vitae. Iste
-                eius maxime ullam! Reiciendis magni voluptates praesentium facilis est tempora iure ipsa voluptas!
-                Rem aliquam laudantium suscipit perspiciatis architecto magnam qui illum non officiis error, enim
-                necessitatibus quibusdam minus, quos voluptatem, cum sequi odio saepe dolores maxime numquam asperiores
-                aperiam reprehenderit aut. Esse.
-                Magnam incidunt tempora illo reprehenderit molestias, deleniti consequuntur? Perferendis consectetur odit
-                fugiat itaque illo exercitationem porro minima quae. Praesentium iusto voluptate magni sapiente ea alias
-                veniam accusantium. Consectetur, voluptatibus aspernatur.
-                Doloremque dolorem atque repellendus ex et enim asperiores alias ducimus nemo itaque sint, velit quas
-                architecto, suscipit veritatis reiciendis minus, quos perspiciatis? Eveniet rem, quod eum voluptatibus odit
-                quas officia!
-                Vitae perferendis, fuga, voluptate dolorum ipsa harum rerum iusto aut ipsam nobis quidem recusandae quos
-                labore impedit. Ex pariatur, voluptatibus aut, rem non aspernatur voluptates praesentium dolores est
-                repellendus magnam?
-                Libero deserunt fugiat odit, recusandae corporis obcaecati. Sed ullam numquam maxime ea nulla quibusdam.
-                Itaque hic nisi, vel accusantium reiciendis doloribus eos fuga atque assumenda nesciunt quaerat earum
-                exercitationem libero!
-                Incidunt fuga dolore illo expedita obcaecati minima molestiae at ipsum vero delectus, ducimus distinctio
-                nesciunt voluptates qui impedit! Magnam voluptatibus perferendis cum similique in! Quae ratione aut ipsum
-                nam culpa?
-                Quos soluta repellat velit itaque alias iste numquam necessitatibus! Totam praesentium voluptate iste sequi
-                aperiam ab fugiat obcaecati quo architecto, cupiditate, adipisci natus id ipsum ipsa nesciunt aspernatur
-                nisi! Doloribus.</h1>
+        <div class="flex flex-col items-center justify-center mx-4 text-center text-white">
+            <h1 class="text-3xl font-bold">
+                Create profiles for kids
+            </h1>
+            <p class="mt-4 ">
+                Send kids on adventures with their favorite characters in a space made just for them—free with your
+                membership.
+            </p>
+            <img src="https://occ-0-5029-37.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png?r=f55"
+                alt="">
+        </div>
+        <line-break></line-break>
+        <div class="flex flex-col items-center mx-4 text-center text-white">
+            <h1 class="text-3xl font-bold">
+                Download your shows to watch offline
+            </h1>
+            <p class="mt-4">
+                Only available on ad-free plans.
+            </p>
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+        </div>
+        <line-break></line-break>
+        <div class="flex-col items-center justify-center text-white">
+            <h1 class="text-3xl font-bold text-center">
+                Frequently Asked Questions
+            </h1>
+            <div class="w-[80%] h-12 bg-red-300">
+
+            </div>
         </div>
     </div>
 </template>
